@@ -13,7 +13,10 @@ class App extends Component {
           <h1 className="App-title">Manhattan Chinatown Linguistic Landscape</h1>
         </header>
         <PicMap
-          className="ll-map"
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnOKq8JmeF7zmivYut8l0yA8UIanqIbcg&v=3.exp&libraries=geometry,drawing,places"
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `400px` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
         />
       </div>
     );
