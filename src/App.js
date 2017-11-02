@@ -125,7 +125,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Chinatown for Everyone</h1>
+          <h1 className="App-title">Planting Flags in Chinatown</h1>
         </header>
         <div className="grid">
           <div className="pic-map">
