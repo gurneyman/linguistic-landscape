@@ -125,8 +125,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Manhattan Chinatown Linguistic Landscape</h1>
+          <h1 className="App-title">Chinatown for Everyone</h1>
         </header>
         <div className="grid">
           <div className="pic-map">
@@ -176,6 +175,9 @@ class App extends Component {
           </p>
           <p>
             At the same time, there are many storefronts in Chinatown that are exclusively written in Chinese or another language. This feels symbolic; like the owners are "planting a flag" on the neighborhood.
+          </p>
+          <p>
+            As I took pictures and analyzed them I tried to keep an eye out for images that illustrated this and/or simply looked interesting.
           </p>
         </div>
       </div>
