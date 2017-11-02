@@ -13,7 +13,7 @@ const PicMap = compose(
   withGoogleMap
 )(props =>
   <GoogleMap
-    defaultZoom={15}
+    defaultZoom={16}
     defaultCenter={{ lat: 40.715911, lng: -73.998404 }}
   >
     <MarkerList 

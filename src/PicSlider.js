@@ -11,18 +11,15 @@ class PicSlider extends React.Component {
     });
     const toggleOpenAt = this.props.toggleOpenAt.bind(this);
     const settings = {
-      dots: true,
-      arrows: true,
+      dots: false,
+      arrows: false,
       adaptiveHeight: true,
       infinite: true,
-      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       slickGoTo: activeSlide,
-      beforeChange: function (currentSlide, nextSlide) {
-        if(activeSlide !== nextSlide) {
-          toggleOpenAt(nextSlide + 1);
-        }
+      afterChange: function (currentSlide, nextSlide) {
+        toggleOpenAt(currentSlide + 1);
       },
     };
     return (
