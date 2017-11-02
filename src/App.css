@@ -38,8 +38,8 @@
 } 
 .pic-slider {
   grid-area: slider;
-  /* width: 80%;
-  margin: 0 auto; */
+  width: 80%;
+  margin: 0 auto;
 }
 .pic-map {
   grid-area: map;

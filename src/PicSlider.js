@@ -11,8 +11,8 @@ class PicSlider extends React.Component {
     });
     const toggleOpenAt = this.props.toggleOpenAt.bind(this);
     const settings = {
-      dots: false,
-      arrows: false,
+      dots: true,
+      arrows: true,
       adaptiveHeight: true,
       infinite: true,
       slidesToShow: 1,
