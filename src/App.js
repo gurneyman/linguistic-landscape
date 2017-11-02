@@ -127,6 +127,18 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Planting Flags in Chinatown</h1>
         </header>
+        <div className="ll-methodology">
+          <h2>Methodology and Findings</h2>
+          <p>
+            Somehow, Chinatown manages to cater to clueless tourists like myself while exhibiting a strong ethnolinguistic vitality, and that is what I kept in mind as I prepared my linguistic landscape. I focused mainly on bottom-up signs as these contained the most linguistic diversity, but included one top-down which shows how extensively Chinese is used in the neighborhood.
+          </p>
+          <p>
+            At the same time, there are many storefronts in Chinatown that are exclusively written in Chinese or another language. This feels symbolic; like the owners are "planting a flag" on the neighborhood.
+          </p>
+          <p>
+            As I took pictures and analyzed them I tried to keep an eye out for images that illustrated this and/or simply looked interesting.
+          </p>
+        </div>
         <div className="grid">
           <div className="pic-map">
             <PicMap
@@ -167,18 +179,6 @@ class App extends Component {
               );
             })}
           </div>
-        </div>
-        <div className="ll-methodology">
-          <h2>Methodology and Findings</h2>
-          <p>
-            Somehow, Chinatown manages to cater to clueless tourists like myself while exhibiting a strong ethnolinguistic vitality, and that is what I kept in mind as I prepared my linguistic landscape. I focused mainly on bottom-up signs as these contained the most linguistic diversity, but included one top-down which shows how extensively Chinese is used in the neighborhood.
-          </p>
-          <p>
-            At the same time, there are many storefronts in Chinatown that are exclusively written in Chinese or another language. This feels symbolic; like the owners are "planting a flag" on the neighborhood.
-          </p>
-          <p>
-            As I took pictures and analyzed them I tried to keep an eye out for images that illustrated this and/or simply looked interesting.
-          </p>
         </div>
       </div>
     );
