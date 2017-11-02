@@ -16,7 +16,9 @@ const PicMap = compose(
     defaultZoom={15}
     defaultCenter={{ lat: 40.715911, lng: -73.998404 }}
   >
-    <MarkerList />
+    <MarkerList 
+      locationPics={ props.locationPics }
+      toggleOpenAt={ props.toggleOpenAt } />
   </GoogleMap>
 );
 
